@@ -1,0 +1,81 @@
+* {
+  background-color: #1c1e33;
+}
+
+.wholeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 700px;
+  height: 700px;
+  border: 2px solid #25273e;
+  margin-top: 5rem;
+}
+
+.login {
+  color: white;
+  font-size: 2rem;
+}
+
+#userNameInput {
+  padding: 0.5rem;
+  border: 4px solid #482a45;
+  border-radius: 10px;
+}
+
+#passwordInput {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 4px solid #482a45;
+  border-radius: 10px;
+}
+
+.loginOptions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.rememberMe {
+  display: flex;
+  color: white;
+}
+
+.rememberMe input {
+  cursor: pointer;
+}
+
+.forgotPassword {
+  color: #732f47;
+}
+
+.loginButton {
+  background-color: #ee3a57;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem;
+  width: 200px;
+  cursor: pointer;
+}
+
+.signIn {
+  color: white;
+}
+
+.dontHaveAnAccount {
+  display: flex;
+  gap: 1rem;
+}
+
+.signUp {
+  color: #732f47;
+  cursor: pointer;
+}
